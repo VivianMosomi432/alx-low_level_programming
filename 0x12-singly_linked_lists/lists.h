@@ -1,5 +1,7 @@
-/**
+#ifndef LISTS_H
+#define LISTS_H
 
+/*
  * struct list_s - singly linked list
 
  * @str: string - (malloc'ed string)
@@ -25,3 +27,5 @@ typedef struct list_s
     struct list_s *next;
 
 } list_t;
+
+#endif
